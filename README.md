@@ -23,7 +23,7 @@
  The final layer of the artificial intelligence is reserved for output, typically in the form of images. These outputs are stored in one folder with the most strongly related result being prioritized in the first image and additional information regarding the problem stored in the following images.
  
 ## Download
- While this project is not finished or finalized in any form, the code, in its entirety, remains open sourced and can be downloaded at any time. No particular setup is required.
+ While this project is not finished or finalized in any form, the code, in its entirety, remains open source and can be downloaded at any time. No particular setup is required.
  
  If any errors or exceptions are raised, add the path of the project to your PATH variable and ensure all imported libraries are installed in your Python folder. Make sure you have both the MinGW C++ compiler with at least C++17 and at least Python 3.7 installed on your system and added to your PATH variable.
  
