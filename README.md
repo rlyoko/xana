@@ -8,7 +8,7 @@
  **XANA** process input through lines of code. These lines of code provide information regarding a mathematical construction, which are then interpreted by **XANA**, and a conclusion is made from the data. For simpler problems where multiple lines of input are not required, a CNN (Convolutional Neural Network) may be used to input a problem through an image (assuming LaTeX formatting), or direct LaTeX inputs may also be used.
 
 ### Problem Classification
- After the input is processed, an NLP classification model is used to classify the problem into four main categories:
+ After the input is processed, an NLP classification model is used to classify the problem into five main categories:
  - (**A**)lgebraic Manipulation or Numerical Computational Arithmetic
  - (**C**)ombinatorical Analysis and Probability/Statistics
  - (**G**)eometrical Analysis (Euclidean and Non-Euclidean) and Geometric Probability
