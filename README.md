@@ -1,7 +1,7 @@
 # XANA
  **XANA** is an artifical intelligence designed to emulate human mathematical problem solving. Heavily utilizes NLP (Natural Language Processing) and other forms of classification to imitate mathematical literacy and thinking.
  
- **Developed solely by Rohan Singh.**
+ **Developed solely by Rohan S.**
 
 ## Overview
 ### Input Layer and Normalization of Data
