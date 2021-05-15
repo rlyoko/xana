@@ -13,6 +13,7 @@
  - (**C**)ombinatorical Analysis and Probability
  - (**G**)eometrical Analysis (Euclidean and Non-Euclidean) and Probability
  - (**N**)umber Theory and Integral Manipulation
+ 
  Once the problem type is identified, each distinct problem type then branches out accordingly.
  
 ### Hidden Layers and Computation
