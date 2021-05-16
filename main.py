@@ -1,23 +1,11 @@
 from imports import *
 
-# The classes and methods format creates indented calculations which
-# can be read easily by a computer through line input
-# 
-# Examples of these "line inputs" can be seen below.
-
-# Prints 1.0
-print(RoundValue(
-      Subtract([
-            Integer(1),
-            Sum([
-                  Fraction(
-                        Integer(1),
-                        Integer(2)
-                  ),
-                  Fraction(
-                        Integer(1),
-                        Integer(4)
-                  )
-            ])
-      ]).value
-))
+print(Sum([
+      Decimal(0.4).numerator,
+      Decimal(0.44).numerator,
+      Decimal(0.444).numerator,
+      Decimal(0.4444).numerator,
+      Decimal(0.44444).numerator,
+      Decimal(0.444444).numerator,
+      Decimal(0.4444444).numerator
+]).value)

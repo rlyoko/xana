@@ -1,3 +1,5 @@
+from fractions import Fraction as stringToFraction
+
 class Integer:
       def __init__(self, value):
             self.value = value
@@ -5,6 +7,12 @@ class Integer:
 class Decimal:
       def __init__(self, value):
             self.value = value
+            self.numerator = Integer(int(
+                  stringToFraction(str(value)).numerator
+            ))
+            self.denominator = Integer(int(
+                  stringToFraction(str(value)).denominator
+            ))
 
 class Fraction:
       def __init__(self, num, den):
