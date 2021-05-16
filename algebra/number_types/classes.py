@@ -2,6 +2,10 @@ class Integer:
       def __init__(self, value):
             self.value = value
 
+class Decimal:
+      def __init__(self, value):
+            self.value = value
+
 class Fraction:
       def __init__(self, num, den):
             self.numerator = num
@@ -12,3 +16,9 @@ class Squareroot:
       def __init__(self, num):
             self.num = num
             self.value = num.value ** 0.5
+
+class Nthroot:
+      def __init__(self, n, num):
+            self.index = n
+            self.num = num
+            self.value = num.value ** float(1/n)

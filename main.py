@@ -7,15 +7,17 @@ from imports import *
 
 # Prints 1.0
 print(RoundValue(
-      Product([
-            Squareroot(Integer(98)),
-            Fraction(
-                  Integer(1),
-                  Squareroot(Integer(2))
-            ),
-            Fraction(
-                  Integer(1),
-                  Integer(7)
-            )
+      Subtract([
+            Integer(1),
+            Sum([
+                  Fraction(
+                        Integer(1),
+                        Integer(2)
+                  ),
+                  Fraction(
+                        Integer(1),
+                        Integer(4)
+                  )
+            ])
       ]).value
 ))
