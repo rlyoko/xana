@@ -33,4 +33,4 @@ class Nthroot:
       def __init__(self, n, num):
             self.index = n
             self.num = num
-            self.value = num.value ** float(1/n)
+            self.value = num.value ** float(1/n.value)

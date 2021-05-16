@@ -11,8 +11,13 @@ class Fraction:
             self.denominator = Integer(int(stringToFraction(str(self.value)).denominator))
 
 class Decimal:
-      def __init__(self, value):
-            self.value = value
-            self.numerator = Integer(int(stringToFraction(str(value)).numerator))
-            self.denominator = Integer(int(stringToFraction(str(value)).denominator))
-            self.fraction = Fraction(self.numerator, self.denominator)
+      def __init__(self, x):
+            try:
+                  self.value = x.value
+            except:
+                  self.value = x
+
+            self.fraction = Fraction(
+                  Integer(int(stringToFraction(str(self.value)).numerator)),
+                  Integer(int(stringToFraction(str(self.value)).denominator))
+            )
