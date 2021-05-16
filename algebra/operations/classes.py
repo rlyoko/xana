@@ -34,3 +34,13 @@ class Nthroot:
             self.index = n
             self.num = num
             self.value = num.value ** float(1/n.value)
+
+class Floor:
+      def __init__(self, num):
+            self.num = num
+            self.value = int(num.value)
+
+class Ceiling:
+      def __init__(self, num):
+            self.num = num
+            self.value = int(float(num.value) - 0.0000000001) + 1
