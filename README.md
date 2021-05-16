@@ -15,7 +15,7 @@
  - (**N**)umber Theory and Integral Manipulation
  - (**U**)niversity Mathematics and Beyond (Analysis, Continuation, and Logic)
  
- Once the problem type is identified, each distinct problem type then branches out accordingly.
+ Once the problem type is identified, each distinct problem type branches out accordingly.
  
 ### Hidden Layers and Computation
  A complex tree with nodes signifying similarities between problem types is created. While it is difficult to map out each node of each tree concerning each problem type, a final child node is always reserved for each distinct computation. Often, these child nodes designate functions to return additional information about a problem that may be of relevance. These hidden layers are where most of the brute computation happens, and many mathematical aspects of this layer are written in C++ to speed up computation time for larger numbers.
