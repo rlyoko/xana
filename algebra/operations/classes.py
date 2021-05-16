@@ -23,3 +23,14 @@ class Divide:
       def __init__(self, x):
             self.dividends = x
             self.value = x[0]/x[1]
+
+class Squareroot:
+      def __init__(self, num):
+            self.num = num
+            self.value = num.value ** 0.5
+
+class Nthroot:
+      def __init__(self, n, num):
+            self.index = n
+            self.num = num
+            self.value = num.value ** float(1/n)

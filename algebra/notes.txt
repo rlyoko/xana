@@ -1,0 +1,13 @@
+- code can get messy from too many class names and types
+
+- integer has only .value
+- no value can exist alone, must be passed as an instance on integer class
+
+- no class has an attribute that exists solely as a noncustom class (**EXECEPT .value
+WHICH CONVERTS CUSTOM CLASSES TO REGULAR VALUES**)
+
+- only one .value should ever be used in a input line because of custom class conversion
+
+- fractions auto simplify when converted from decimals and when declared as an instance of a class
+
+- (???) reorganize classes to be more neat and maintain mutually exclusive imports
