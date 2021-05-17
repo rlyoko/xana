@@ -1,4 +1,4 @@
-from fractions import Fraction as stringToFraction
+from fractions import Fraction as s__Fraction
 
 class Integer:
       def __init__(self, value):
@@ -7,8 +7,8 @@ class Integer:
 class Fraction:
       def __init__(self, num, den):
             self.value = num.value/den.value
-            self.numerator = Integer(int(stringToFraction(str(self.value)).numerator))
-            self.denominator = Integer(int(stringToFraction(str(self.value)).denominator))
+            self.numerator = Integer(int(s__Fraction(str(self.value)).numerator))
+            self.denominator = Integer(int(s__Fraction(str(self.value)).denominator))
 
 class Decimal:
       def __init__(self, x):
@@ -18,6 +18,6 @@ class Decimal:
                   self.value = x
 
             self.fraction = Fraction(
-                  Integer(int(stringToFraction(str(self.value)).numerator)),
-                  Integer(int(stringToFraction(str(self.value)).denominator))
+                  Integer(int(std__Fraction(str(self.value)).numerator)),
+                  Integer(int(std__Fraction(str(self.value)).denominator))
             )

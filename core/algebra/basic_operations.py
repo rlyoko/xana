@@ -30,17 +30,13 @@ class Squareroot:
             self.value = num.value ** 0.5
 
 class Nthroot:
-      def __init__(self, n, num):
-            self.index = n
+      def __init__(self, index, num):
+            self.index = index
             self.num = num
-            self.value = num.value ** float(1/n.value)
+            self.value = num.value ** float(1/index.value)
 
-class Floor:
-      def __init__(self, num):
+class Exponent:
+      def __init__(self, num, exponent):
             self.num = num
-            self.value = int(num.value)
-
-class Ceiling:
-      def __init__(self, num):
-            self.num = num
-            self.value = int(float(num.value) - 0.0000000001) + 1
+            self.exponent = exponent
+            self.value = num ** exponent
