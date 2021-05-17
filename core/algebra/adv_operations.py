@@ -14,10 +14,10 @@ class Gcd:
       def __init__(self, a, b):
             self.a = a
             self.b = b
-            self.value = s__Gcd(a, b)
+            self.value = s__Gcd(a.value, b.value)
 
 class Lcm:
       def __init__(self, a, b):
             self.a = a
             self.b = b
-            self.value = a*b/s__Gcd(a,b)
+            self.value = a.value*b.value/s__Gcd(a.value,b.value)
