@@ -11,3 +11,5 @@ WHICH CONVERTS CUSTOM CLASSES TO REGULAR VALUES**)
 - fractions auto simplify when converted from decimals and when declared as an instance of a class
 
 - (???) reorganize classes to be more neat and maintain mutually exclusive imports
+
+- decimal has a fraction attribute but not vice versa
